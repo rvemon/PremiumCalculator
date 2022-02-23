@@ -1,0 +1,122 @@
+[
+  {
+    "carrier": "Qwerty",
+    "plan": "A",
+    "state": "NY",
+    "monthOfBirth": "September",
+    "ageRange": "21,45",
+    "price": 150.00
+  },
+  {
+    "carrier": "Qwerty",
+    "plan": "B",
+    "state": "NY",
+    "monthOfBirth": "January",
+    "ageRange": "46,65",
+    "price": 200.50
+  },
+  {
+    "carrier": "Qwerty",
+    "plan": "A,C",
+    "state": "NY",
+    "monthOfBirth": "*",
+    "ageRange": "18,65",
+    "price": 120.99
+  },
+  {
+    "carrier": "Qwerty",
+    "plan": "A",
+    "state": "AL",
+    "monthOfBirth": "November",
+    "ageRange": "18,65",
+    "price": 85.5
+  },
+  {
+    "carrier": "Qwerty",
+    "plan": "C",
+    "state": "AL",
+    "monthOfBirth": "*",
+    "ageRange": "18,65",
+    "price": 100.00
+  },
+  {
+    "carrier": "Qwerty",
+    "plan": "A",
+    "state": "AK",
+    "monthOfBirth": "December",
+    "ageRange": "65,120",
+    "price": 175.20
+  },
+  {
+    "carrier": "Qwerty",
+    "plan": "A",
+    "state": "AK",
+    "monthOfBirth": "December",
+    "ageRange": "18,64",
+    "price": 125.16
+  },
+  {
+    "carrier": "Qwerty",
+    "plan": "B",
+    "state": "AK",
+    "monthOfBirth": "*",
+    "ageRange": "18,65",
+    "price": 100.80
+  },
+  {
+    "carrier": "Qwerty",
+    "plan": "A,C",
+    "state": "*",
+    "monthOfBirth": "*",
+    "ageRange": "18,65",
+    "price": 90.00
+  },
+  {
+    "carrier": "Asdf",
+    "plan": "B",
+    "state": "NY",
+    "monthOfBirth": "January",
+    "ageRange": "46,65",
+    "price": 184.50
+  },
+  {
+    "carrier": "Asdf",
+    "plan": "A",
+    "state": "NY",
+    "monthOfBirth": "*",
+    "ageRange": "18,65",
+    "price": 129.95
+  },
+  {
+    "carrier": "Asdf",
+    "plan": "A",
+    "state": "AL",
+    "monthOfBirth": "November",
+    "ageRange": "18,65",
+    "price": 84.50
+  },
+  {
+    "carrier": "Asdf",
+    "plan": "B",
+    "state": "WY",
+    "monthOfBirth": "*",
+    "ageRange": "18,65",
+    "price": 100.00
+  },
+  {
+    "carrier": "Asdf",
+    "plan": "B,C",
+    "state": "AK",
+    "monthOfBirth": "*",
+    "ageRange": "18,65",
+    "price": 100.80
+  },
+  {
+    "carrier": "Asdf",
+    "plan": "A,C",
+    "state": "*",
+    "monthOfBirth": "*",
+    "ageRange": "18,65",
+    "price": 89.99
+  }
+]

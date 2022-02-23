@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/jquery-3.6.0.min.js"></script>
+    </head>
+    <body>
+
+        <h1>Premium Calculator</h1>
+        <h3 id="alert">message</h2>
+
+        <div style="padding: 1rem;">
+            <div class="title">
+                <label style="min-width:100px;">Date of Birth</label>
+                <input type="date" id="nacimiento">
+            </div>
+
+            <div class="title">
+                <label class="label">State</label>
+                <select id="states" style="min-width:100px;"></select>
+
+                <label style="min-width:50px; padding-left:5rem;">Plan</label>
+                <select id="plans" style="min-width:100px;"></select>
+            </div>
+            
+            <div class="title">
+                <label class="label">Age</label>
+                <input type="number" id="age" type="number">
+            </div>
+        </div>
+
+        <div id="calculator">
+            <div style="max-width: 24%; padding: 0.5rem;">
+                <div style="padding-bottom: 0.5rem; visibility:hidden;">label</div>
+                <div style="padding-bottom: 0.5rem;"><button onclick="sendPremium()">Get Premium</button></div>
+                <div style="display:flex;">
+                    <div style="padding-right:1rem;">Period</div>
+                    <select id="periods"></select>
+                </div>
+                
+            </div>
+            <div class="column" id="carrier_col">
+                <div class="row">Carrier</div>
+                <div class="row"><input id="carrier_1" type="number"></div>
+                <div class="row"><input id="carrier_2" type="number"></div>
+            </div>
+            <div class="column" id="premium_col">
+                <div class="row">Premium</div>
+                <div class="row"><input id="premium_1" type="number"></div>
+                <div class="row"><input id="premium_2" type="number"></div>
+            </div>
+            <div class="column" id="annual_col">
+                <div class="row">Annual</div>
+                <div class="row"><input id="annual_1" type="number"></div>
+                <div class="row"><input id="annual_2" type="number"></div>
+            </div>
+            <div class="column" id="monthly_col">
+                <div class="row">Montly</div>
+                <div class="row"><input id="monthly_1" type="number"></div>
+                <div class="row"><input id="monthly_2" type="number"></div>
+            </div>
+        </div>
+        <script src="js/main.js"></script>
+        <script src="js/requests.js"></script>
+    </body>
+</html>

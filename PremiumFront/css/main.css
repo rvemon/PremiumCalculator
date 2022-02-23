@@ -1,0 +1,47 @@
+#calculator{
+    max-width: 70%;
+    min-width: 70%;
+    min-height: 15rem; 
+    padding: 1rem; 
+    display: flex; 
+    border: 1px solid black;
+}
+
+#alert{
+    font-weight:bold; 
+    color:red; 
+    visibility:hidden;
+}
+
+#age{
+    min-width:92px; 
+    max-width:92px;
+}
+
+.title{
+    display: flex; 
+    padding-bottom: 0.5rem;
+}
+
+.label{
+    min-width:100px;
+}
+
+.column{
+    max-width: 19%; 
+    padding: 0.5rem;
+}
+
+.row{
+    padding-bottom: 0.5rem;
+}
+
+  /* On screens that are 992px or less, set the background color to blue */
+  @media screen and (max-width: 1280px) {
+
+    #calculator {
+      max-width: 100%;
+      min-width: 100%;
+    }
+  }
+  
