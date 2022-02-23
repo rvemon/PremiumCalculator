@@ -15,3 +15,5 @@ The Backend contains 3 json files for further configurations or modifications, t
 - plans.json contains the available plans (A,B,C)
 - states.json contains the available states (usa states)
 - premium_table.json contains the plan table of the exercise.
+
+I made a run.bat file to execute the Backend, it could be find on PremiumAPI/run.bat
