@@ -17,3 +17,6 @@ The Backend contains 3 json files for further configurations or modifications, t
 - premium_table.json contains the plan table of the exercise.
 
 I made a run.bat file to execute the Backend, it could be find on PremiumAPI/run.bat
+For the Frontend you only need to double-clic home.html
+
+Please run the Banckend first and then the Frontend.
